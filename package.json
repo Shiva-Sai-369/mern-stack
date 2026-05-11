@@ -1,0 +1,14 @@
+{
+  "name": "bz-mern-fullstack-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend && npm start --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "dependencies": {
+    "mongoose": "^9.6.2"
+  }
+}
