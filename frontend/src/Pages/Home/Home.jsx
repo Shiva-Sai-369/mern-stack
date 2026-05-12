@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Shiva App
+            Shiva's App
           </Title>
 
           <Text
